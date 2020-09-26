@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <! jQuery読み込み >
+    <script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script>
+    //共通パーツ読み込み
+    $(function() {
+        $("#header").load("/src/header.html");
+        $("#footer").load("/src/footer.html");
+    });
+    </script>
+  </head>
+  <header id="header">
+  </header>
+  <body>
+    <div id="app">
+      <h1>index from ubuntu on wsl2</h1>
+    </div>
+  </body>
+  <footer id="footer">
+  </footer>
+</html>
